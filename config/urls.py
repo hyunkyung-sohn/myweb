@@ -22,4 +22,5 @@ from django.urls import include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("index/", include("index.urls")),
-]
+    path("gugu/", include("gugu.urls")),
+]    
